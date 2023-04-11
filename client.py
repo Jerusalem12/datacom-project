@@ -1,6 +1,7 @@
 from socket import *
 
-serverName = '127.0.0.1' # replace this with the IP address of the server PC
+serverName = '127.0.0.1'
+# replace this with the IP address of the server PC if you're going to use the server from a different host.
 serverPort = 7000
 clientName = input("Enter your full name:")
 client_string = "client" + " " + clientName
